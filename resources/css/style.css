@@ -92,5 +92,117 @@ body {
 .header__main--title h2 {
 	font-size: 2rem;
 	font-weight: bold;
+}
 
+.services {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.services .container {
+	flex-direction: row;
+	justify-content: center;
+}
+
+.services__box {
+	align-items: center;
+	display: flex;
+	height: 8rem;
+	flex-direction: column;
+	max-width: 5rem;
+	padding: 3rem 3rem 0rem 3rem;
+}
+
+.services__box-img-container {
+	align-items: center;
+	height: 5rem;
+	justify-content: center;
+}
+
+.services__box-text p {
+	align-items: center;
+	justify-content: center;
+	line-height: 1.3rem;
+	text-align: center;
+}
+
+.paper {
+	width: 3.5rem;
+}
+
+.ruler {
+	width: 5rem;
+}
+
+.truck {
+	width: 5rem;
+}
+
+.service__box p {
+	word-wrap: wrap;
+}
+
+.business {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.business .container {
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.business__box {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 35%;
+}
+
+.business__box-title {
+	background-color: cadetblue;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.5rem 0rem 0.5rem 1.25rem;
+	width: 10rem;
+}
+
+.business__box-text {
+	line-height: 1.2rem;
+	padding-top: 1rem;
+}
+
+footer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+	height: 9rem;
+}
+
+footer .container {
+	align-items: center;
+	background-color: azure;
+	flex-direction: row;
+	height: 100%;
+	padding: 4rem 0rem;
+}
+
+.footer__logo {
+	height: 1.5rem;
+	padding-left: 4rem;
+}
+
+.footer__logo img {
+	height: 100%;
+}
+
+.footer__txt {
+	padding-left: 1rem;
+}
 }
